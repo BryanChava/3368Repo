@@ -1,4 +1,5 @@
 #homework1-3368-19296-bryan chavarria-1657040
+#work was preformed on vs code 
 import mysql.connector
 from mysql.connector import Error
 #shown in class, connectiion to my sqlworkbench
