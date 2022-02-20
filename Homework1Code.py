@@ -25,7 +25,7 @@ rows = cursor.fetchall()
 
 
 #will display menu for user to input data into terminal, 
-# line 35 statements will come into effect IF choice is invalid  
+#line 35 statements will come into effect IF choice is invalid  
 def select():
     print("1. Go to Main Menu In Garage")
     print("2. Quit") #function that reveals the main menu for the use to start interacting with program in terminal
