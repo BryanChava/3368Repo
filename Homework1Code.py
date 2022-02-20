@@ -41,7 +41,7 @@ def select():
 
 #Note: Data from an .csv file was instered into my sql workbench for easier understanding
 #Inserting / Adding cars to the table                                        
-#source https://www.w3schools.com/sql/func_mysql_insert.asp / 
+#source https://pynative.com/python-mysql-insert-data-into-database-table/
 #https://www.sqlshack.com/learn-sql-insert-into-table/
 def insert():
     print("Insert new car")
