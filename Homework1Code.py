@@ -23,7 +23,6 @@ sql = "select * from garage"
 csr.execute(sql)
 rows = cursor.fetchall()
 
-
 #will display menu for user to input data into terminal, 
 #line 35 statements will come into effect IF choice is invalid  
 def select():
@@ -77,7 +76,6 @@ def delete():
     print("Car deleted successfully")
     select()
 
-
 #updating car details (model,color,year) all make is the same 
 #user will be prompted to enter id for specific car / line row of data (86) the user will follow steps inorder 
 # from how the collum is made to make any adjustments to database, if left blank data will not be affected   
@@ -98,7 +96,6 @@ def update():
     print()
     select()
 
-
 #displays all og the cars in garage sorted by year in acending order 
 #sort function was used to sort cars by year 
 #source https://www.pythontutorial.net/python-basics/python-sort-list/#:~:text=Summary-,Use%20the%20Python%20List%20sort()%20method%20to%20sort%20a,reverse%20the%20default%20sort%20order.
@@ -113,7 +110,6 @@ def sort():
     print()
     select()
 
-
 #displays all cars of a certain color when 
 #called 
 #source https://www.pythontutorial.net/python-basics/python-sort-list/#:~:text=Summary-,Use%20the%20Python%20List%20sort()%20method%20to%20sort%20a,reverse%20the%20default%20sort%20order.
@@ -126,7 +122,6 @@ def sort():
         print(i[0])
     print()
     select()
-
 
 #user will navigate the main menu
 #charcters within the print function will be displayed at the beginning of the code to naviagte the program 
